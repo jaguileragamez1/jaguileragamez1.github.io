@@ -1,0 +1,66 @@
+/*font-family: 'David Libre', serif;
+font-family: 'Bitter', serif;
+*/
+
+#contenidos{
+	width: 	1000px; 		
+	height: auto;			
+	margin: auto;			
+	position: relative;		
+	 
+}
+
+/*ETIQUETAS*/
+
+body{
+	background-image: url(../imagenes/fondounad-2.jpg); /*Buscar la imagene para cargar*/
+	background-repeat: no-repeat; /*Para que la imagen no genere a distorcinar con otra imagen por tema de colores*/
+	background-size: cover; /*Permite amplicar la pantalla sin afectar la imagen*/	
+}
+
+/*Fuentes*/
+
+h1{
+	font-family: 'Bitter', serif;
+	color: black;
+	margin-left: 80px;
+	font-size: 40px;
+	left: 10%;
+	top: 80%;
+	position: absolute;
+	
+}
+ul {
+	margin: 3px;
+	padding-top: 10px;
+	background: orange;
+  }
+
+h2{
+	font-family: 'David Libre', serif;
+	color: black;
+	margin-left: 10px;
+	font-size: 60px;
+	text-align: center;
+}
+
+/* Centrar la imagen*/
+ img{
+	
+	margin-top: 195px;
+	margin-left: 290px;
+	right: 40%;
+	top: 200%;
+	position: absolute;
+}
+
+li{
+	  float: right;
+	  list-style-type: none;
+	  padding: 10px;
+	  background; black;
+	  margin: 3px;
+	  box-shadow: 0 0 100px white inset; 
+  }
+
+  

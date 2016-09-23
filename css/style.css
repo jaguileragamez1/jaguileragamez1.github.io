@@ -1,0 +1,144 @@
+/*font-family: 'David Libre', serif;
+font-family: 'Bitter', serif;
+*/
+
+#contenidos{
+	width: 	1000px; 		
+	height: auto;			
+	margin: auto;			
+	position: relative;		
+	 
+}
+
+/*ETIQUETAS*/
+
+body{
+	background-image: url(../imagenes/fondounad.jpg); /*Buscar la imagene para cargar*/
+	background-repeat: no-repeat; /*Para que la imagen no genere a distorcinar con otra imagen por tema de colores*/
+	background-size: cover; /*Permite amplicar la pantalla sin afectar la imagen*/	
+}
+
+/*Fuentes*/
+
+h1{
+	font-family: 'David Libre', serif;
+	color: white;
+	margin-left: 10px;
+	font-size: 60px;
+	text-align: center;
+}
+
+h2{
+	font-family: 'Bitter', serif;
+	color: white;
+	margin-left: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+
+/* ATRIBUTOS*/
+header {
+	width: 1000px;
+	height: 120px;
+	background: rgba(255,255,255,0,5);
+	}
+
+
+nav {
+	width: 1000px
+	height: 50px;
+	background: black;
+	border-radius: 10px; 			/*Para que los bordes de las esquinas se vean redondas y mas bonitas*/
+	}
+
+ul {
+	margin: 3px;
+	padding-top: 4px;
+	background: orange;
+  }
+
+  li{
+	  float: left;
+	  list-style-type: none;
+	  padding: 10px;
+	  background; black;
+	  margin: 3px;
+	  border-radius: 20px; 			/*Para que los bordes de las esquinas se vean redondas y mas bonitas*/
+	  box-shadow: 0 0 30px white inset; /*Sombreas los link*/
+  }
+
+  img{
+	
+	margin-top: 50px;
+	margin-left: 100px;
+	right: 50%;
+	top: 220%;
+	position: absolute;
+}
+selection{
+	width: 400px;
+	background: wait;
+	height: 600px;
+	float: left;
+	}
+
+aside{
+	font-family: 'David Libre', serif;
+	margin-top: 50px;
+	margin-left: 100px;
+	right: 50%;
+	top: 370%;
+	position: absolute;
+}
+
+footer{
+	font-family: 'David Libre', serif;
+	margin-top: 50px;
+	margin-left: 100px;
+	background; red;
+	right: 50%;
+	top: 450%;
+	font-size: 20px;
+	position: absolute;
+}
+		
+  }
+/*CLASES*/
+
+.ancho_menu_home{width:900px;}
+.ancho_menu_paginas{width:970px;}
+
+.menu:link{padding: 2px; color:white; text-decoration: none;}
+.menu:visited{padding: 2px; color:white; text-decoration: none;}
+.menu:hover{padding: 2px; color:white; text-decoration: none;text-shadow: 0 0 100px white;}
+.menu:active{padding: 2px; color:white; text-decoration: none;}
+
+/*SEUDO CLASES*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
